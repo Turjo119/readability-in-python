@@ -16,11 +16,11 @@ def count_words(n, string):
     w = 0
     if str.isalpha(string[0]):
         w += 1
-
+    
     for j in range (0, n, 1):
         if str.isspace(string[j]):
             w += 1
-
+    return w
 # Function to count total number of sentences
 def count_sentences(n, string):
     # Counter for sentences
